@@ -1,0 +1,55 @@
+body{
+    background-image: url('assets/123.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+.center-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid lightgreen;
+    border-radius: 40px;
+    width: 450px;
+    height: 420px;
+    text-align: center;
+    color:;
+}
+.text-field{
+    padding: 10px 30px;
+    margin: 20px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    color:black;
+}
+.btn-style{
+    padding: 10px 30px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 20px;
+    color:whitesmoke;
+}
+.btn-style:hover{
+    background-color:green;
+    color: white;
+}
+.btn-1{
+    padding: 10px;
+    border:  solid black;
+    background-color: black;
+    border-radius: 20px;
+    color:white;
+    margin-top: 10px;
+}
+.btn-1:hover{
+    background-color: green;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    color: aquamarine;
+}
+
